@@ -50,17 +50,26 @@ h4{
   margin-bottom: 30px;
 }
 
+.xlarge-section{
+  margin-top: 150px;
+}
+
 .large-section{
   margin: 0 auto;
   width: 70vw;
   min-width: 1200px;
-  /* height: 700px;  */
 }
 
 .small-section{
   margin: 0 auto;
   width: 60vw;
   min-width: 1000px;
+}
+
+.micro-section{
+  margin-left: 220px;
+  width: 40vw;
+  min-width: 600px;
 }
 
 
@@ -265,3 +274,18 @@ h4{
   flex-wrap: nowrap;
 }
 
+.section-sponsor{
+  display: flex;
+}
+
+.sponsor-left,
+.sponsor-right,
+.sponsor-center{
+  width: 33vw;
+}
+
+
+.sponsor-left img,
+.sponsor-right img{
+  width: 50%;
+}
