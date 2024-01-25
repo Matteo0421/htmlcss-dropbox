@@ -34,6 +34,7 @@ h2{
 
 h4{
   font-size: 1.3rem;
+  margin-top: 30px;
 }
 
 
@@ -43,13 +44,16 @@ h4{
   color: white;
   padding: 10px;
   text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .large-section{
   margin: 0 auto;
   width: 70vw;
   min-width: 1200px;
-  height: 700px; 
+  /* height: 700px;  */
 }
 
 .small-section{
@@ -77,7 +81,6 @@ h4{
 }
 
 .left-footer img{
-  /* vertical-align: middle; */
   width: 25%;
 }
 
@@ -87,16 +90,27 @@ h4{
 
 .jumbotron{
   background-color: var(--light-ble);
+  
 }
 
 /* /MAIN */
 .jumbo-text{
-  width: 40%;
+  width: 30%;
   display: flex;
 }
 
+.jumbo-text p{
+  margin-top: 50px;
+}
+
 .jumbo-img{
-  width: 60%;
+  position: relative;
+  width: 70%;
+}
+
+.jumbo-img img{
+  position: absolute;
+  top: 50px;
 }
 
 .jumbo-content{
@@ -107,33 +121,27 @@ h4{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 320px;
 }
 
 .fa-arrow-down{
   font-size: 4rem;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 .business{
   display: flex;
   justify-content: space-between;
 }
 
-.business-horizontal{
-  display: flex;
-}
-
 .plan-card-vertical{
-  height: 1050px;
+  width: 300px;
   border: 1px solid #D0D0D3;
   margin-top: 50px;
-  margin-right: 50px;
 }
 
 .plan-card-horizontal{
-  width: 1050px;
   border: 1px solid #D0D0D3;
   margin-top: 50px;
-  margin-right: 50px;
 }
 
 
@@ -145,7 +153,7 @@ h4{
 }
 
 .service{
-  height: 500px;
+  /* mettere padding */
   border-bottom: 1px solid #D0D0D3 ;
   display: flex;
   flex-direction: column;
@@ -154,9 +162,18 @@ h4{
 
 }
 
+.cash{
+  margin-top: 20px;
+}
+
 .month{
   color: #707070;
-  margin-top: -20px;
+  margin-top: 10px;
+}
+
+
+.prova,p{
+  margin-bottom: 30px;
 }
 
 .service ul ,
@@ -167,6 +184,7 @@ h4{
 .service ul li ,
 .bottom-plan-card ul li{
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .bottom-plan-card{
@@ -185,12 +203,33 @@ h4{
   font-size: 1.2rem;
 }
 
-.contatta{
-  position: relative;
+.main-card-horizontal{
+  display: flex;
 }
 
-.contatta a.link{
-  position: absolute;
-  right: 10px;
-  top: 10px;
+.service-horizontal{
+  width: 70%;
+}
+
+.contatta{
+  width: 30%;
+}
+
+.service-horizontal h4{
+  margin-top: 40px;
+}
+
+.horizontal-span{
+  margin-top: 30px;
+}
+
+.horizontal-p{ 
+  margin: 30px 0;
+  
+}
+
+
+.contatta a{
+  margin-top: 40px;
+  margin-left: 50px;
 }
