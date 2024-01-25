@@ -289,3 +289,23 @@ h4{
 .sponsor-right img{
   width: 50%;
 }
+
+.factory-dropbox{
+  background-color: var(--light-ble);
+}
+
+.factory-dropbox .small-section{
+  display: flex;
+  align-items: center;
+}
+
+
+.factory-dropbox .small-section h2{
+  color: #60092B;
+  margin: 130px 0;
+  width: 60vw;
+}
+
+.small-section h2 a .link .white{
+  width: 40vw;
+}
