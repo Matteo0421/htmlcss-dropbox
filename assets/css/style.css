@@ -26,6 +26,13 @@ h1{
     padding-bottom: 50px;
 }
 
+h2{
+  font-size: 3rem;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+
 .link{
   text-decoration: none;
   background-color: var(--blue);
@@ -39,6 +46,14 @@ h1{
   min-width: 1200px;
   height: 700px; 
 }
+
+.small-section{
+  margin: 0 auto;
+  width: 60vw;
+  min-width: 1000px;
+}
+
+
 /* FOOTER */
 .footer-menu{
   display: flex;
