@@ -12,13 +12,34 @@
   box-sizing: border-box;
 }
 
+img{
+  max-width: 100%;
+}
+
+body{
+  font-family: var(--font-family);
+}
+
+h1{
+    font-size: 5rem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .link{
   text-decoration: none;
   background-color: var(--blue);
   color: white;
-  padding: 6px;
+  padding: 10px;
 }
 
+.large-section{
+  margin: 0 auto;
+  width: 70vw;
+  min-width: 1200px;
+  height: 700px; 
+}
+/* FOOTER */
 .footer-menu{
   display: flex;
   justify-content: space-between;
@@ -38,4 +59,37 @@
 .left-footer img{
   /* vertical-align: middle; */
   width: 25%;
+}
+
+/* /FOOTER */
+
+/* MAIN */
+
+.jumbotron{
+  background-color: var(--light-ble);
+}
+
+/* /MAIN */
+.jumbo-text{
+  width: 40%;
+  display: flex;
+}
+
+.jumbo-img{
+  width: 60%;
+}
+
+.jumbo-content{
+  display: flex;
+}
+
+.jumbo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+}
+
+.fa-arrow-down{
+  font-size: 4rem;
 }
