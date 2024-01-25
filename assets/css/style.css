@@ -118,12 +118,25 @@ h4{
   justify-content: space-between;
 }
 
-.plan-card{
-  width: 300px;
+.business-horizontal{
+  display: flex;
+}
+
+.plan-card-vertical{
   height: 1050px;
   border: 1px solid #D0D0D3;
   margin-top: 50px;
+  margin-right: 50px;
 }
+
+.plan-card-horizontal{
+  width: 1050px;
+  border: 1px solid #D0D0D3;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+
 
 .user-number{
   border: 1px solid #D0D0D3;
@@ -170,4 +183,14 @@ h4{
 .fa-check{
   color: var(--blue);
   font-size: 1.2rem;
+}
+
+.service-horizontal{
+  position: relative;
+}
+
+.contatta a.link{
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
