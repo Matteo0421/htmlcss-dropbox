@@ -1,0 +1,41 @@
+:root{
+  --font-family: 'Open Sans', sans-serif;
+  --black: #000;
+  --light-ble: #B4D0E7;
+  --blue: #0060FF;
+  --bordeaux: #61102F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link{
+  text-decoration: none;
+  background-color: var(--blue);
+  color: white;
+  padding: 6px;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.left-footer,
+.right-footer{
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .9rem;
+}
+
+.left-footer img{
+  /* vertical-align: middle; */
+  width: 25%;
+}
