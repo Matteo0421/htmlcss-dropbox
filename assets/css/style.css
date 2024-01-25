@@ -32,12 +32,17 @@ h2{
   margin-bottom: 50px;
 }
 
+h4{
+  font-size: 1.3rem;
+}
+
 
 .link{
   text-decoration: none;
   background-color: var(--blue);
   color: white;
   padding: 10px;
+  text-align: center;
 }
 
 .large-section{
@@ -107,4 +112,62 @@ h2{
 
 .fa-arrow-down{
   font-size: 4rem;
+}
+.business{
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-card{
+  width: 300px;
+  height: 1050px;
+  border: 1px solid #D0D0D3;
+  margin-top: 50px;
+}
+
+.user-number{
+  border: 1px solid #D0D0D3;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.service{
+  height: 500px;
+  border-bottom: 1px solid #D0D0D3 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 30px;
+
+}
+
+.month{
+  color: #707070;
+  margin-top: -20px;
+}
+
+.service ul ,
+.bottom-plan-card ul{
+  list-style: none;
+}
+
+.service ul li ,
+.bottom-plan-card ul li{
+  margin-top: 30px;
+}
+
+.bottom-plan-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 30px;
+
+}
+
+.bottom-plan-card span{
+  margin-top: 50px;
+}
+.fa-check{
+  color: var(--blue);
+  font-size: 1.2rem;
 }
