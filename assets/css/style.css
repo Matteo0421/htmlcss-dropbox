@@ -78,6 +78,11 @@ h4{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 80px;
+  background-color: white;
 }
 
 .left-footer,
@@ -107,6 +112,7 @@ h4{
   width: 30%;
   display: flex;
 }
+
 
 .jumbo-text p{
   margin-top: 50px;
