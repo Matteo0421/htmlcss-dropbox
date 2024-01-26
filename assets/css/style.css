@@ -52,6 +52,7 @@ h4{
 
 .xlarge-section{
   margin-top: 150px;
+  width: 100%;
 }
 
 .large-section{
@@ -78,9 +79,9 @@ h4{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed;
   z-index: 999;
-  width: 100%;
+  width: 99.20%; */
   height: 80px;
   background-color: white;
 }
@@ -279,20 +280,41 @@ h4{
   flex-wrap: nowrap;
 }
 
-.section-sponsor{
+.total-sponsor{
   display: flex;
 }
 
 .sponsor-left,
 .sponsor-right,
 .sponsor-center{
-  width: 33vw;
+  width: calc(100/3);
+  aspect-ratio: 1/1;
 }
 
+.sponsor-left,
+.sponsor-right{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sponsor-center{
+  overflow: auto;
+  background-color: #F5F5F5;
+}
 
 .sponsor-left img,
 .sponsor-right img{
   width: 50%;
+  padding: 55px;
+}
+
+.sponsor-center img{
+  width: 50%;
+  margin: 40px 40px;
+}
+
+.sponsor-center p,span{
+  margin: 40px 40px;
 }
 
 .factory-dropbox{
@@ -304,13 +326,45 @@ h4{
   align-items: center;
 }
 
+#designit{
+  background-color: #A2D39B;
+}
+
+#asu{
+  background-color: #62092B;
+}
+
+#uf-florida{
+  background-color: #0093CE;
+}
+
+#topps{
+  background-color: #FF1D1C;
+}
+
+#bicycle{
+  background-color: #D50020;
+}
+
+#heart{
+  background-color: #B4D0E7;
+}
+
+#lonely{
+  background-color: #0D2481;
+}
+
+#clear{
+  background-color: #FFD830;
+}
+
 
 .factory-dropbox .small-section h2{
   color: #60092B;
   margin: 130px 0;
-  width: 60vw;
+  width: 50vw;
 }
 
 .small-section h2 a .link .white{
-  width: 40vw;
+  width: 50vw;
 }
