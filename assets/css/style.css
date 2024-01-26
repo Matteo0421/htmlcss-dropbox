@@ -79,9 +79,9 @@ h4{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed;
+  position: fixed;
   z-index: 999;
-  width: 99.20%; */
+  width: 100%;
   height: 80px;
   background-color: white;
 }
@@ -188,7 +188,7 @@ h4{
 }
 
 
-.prova,p{
+p{
   margin-bottom: 30px;
 }
 
@@ -313,7 +313,8 @@ h4{
   margin: 40px 40px;
 }
 
-.sponsor-center p,span{
+.sponsor-p,
+.sponsor-span{
   margin: 40px 40px;
 }
 
@@ -365,6 +366,71 @@ h4{
   width: 50vw;
 }
 
-.small-section h2 a .link .white{
-  width: 50vw;
+.small-section a.no-border{
+  border: white;
 }
+
+.question span{
+  margin: 20px 0;
+}
+
+.fa-chevron-down{
+  margin-left: 40%;
+}
+
+.border-question{
+  width: 100%;
+  height: 1px;
+  background-color:#999999 ;
+  margin: 50px 0;
+}
+
+.faq{
+  margin-bottom: 150px;
+}
+
+/* /MAIN */
+
+/* FOOTER */
+footer{
+  background-color: var(--black);
+}
+
+.container-list{
+  display: flex;
+}
+
+.footer-list{
+  width: 20%;
+}
+
+.footer-list ul{
+  list-style: none;
+  color: white;
+  margin: 150px 0;
+}
+
+.footer-list h4{
+  margin-bottom: 50px;
+}
+
+.footer-list li{
+  margin-top: 20px;
+}
+
+.footer-border{
+  width: 120px;
+  height: 1px;
+  background-color: white;
+}
+
+.footer-italy{
+  color: white;
+  padding: 50px 0;
+}
+
+.footer-italy span{
+  margin-right: 5px;
+}
+
+/* /FOOTER */
