@@ -207,6 +207,36 @@ p{
   margin-bottom: 50px;
 }
 
+.service ul li{
+  position: relative;
+  margin-left: 25px;
+  padding-left: 10px;
+}
+
+.service-user{
+  position: absolute;
+  left: -20px;
+  bottom: 4px;
+}
+
+.service-fold{
+  position: absolute;
+  left: -20px;
+  bottom: 25px;
+}
+
+.service-share{
+  position: absolute;
+  left: -20px;
+  bottom: 45px;
+}
+
+.service-share-two{
+  position: absolute;
+  left: -20px;
+  bottom: 65px;
+}
+
 .bottom-plan-card{
   display: flex;
   flex-direction: column;
