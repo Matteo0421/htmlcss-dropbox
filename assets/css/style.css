@@ -334,7 +334,7 @@ p{
 .sponsor-left,
 .sponsor-right,
 .sponsor-center{
-  width: calc(100vw / 3);
+  width: calc(100% / 3);
   aspect-ratio: 1/1;
 }
 
