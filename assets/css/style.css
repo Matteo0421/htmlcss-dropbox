@@ -160,7 +160,7 @@ h4{
 }
 
 .plan-card-vertical{
-  width: 300px;
+  width: 32%;
   border: 1px solid #D0D0D3;
   margin-top: 50px;
 }
@@ -238,11 +238,6 @@ p{
   bottom: 45px;
 }
 
-.service-share-two{
-  position: absolute;
-  left: -20px;
-  bottom: 65px;
-}
 
 .fa-check{
   position: absolute;
@@ -339,7 +334,7 @@ p{
 .sponsor-left,
 .sponsor-right,
 .sponsor-center{
-  width: calc(100/3);
+  width: calc(100vw / 3);
   aspect-ratio: 1/1;
 }
 
@@ -358,6 +353,7 @@ p{
 .sponsor-right img{
   width: 50%;
   padding: 55px;
+  aspect-ratio: 1/1;
 }
 
 
