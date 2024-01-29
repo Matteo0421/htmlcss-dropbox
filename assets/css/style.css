@@ -434,10 +434,15 @@ p{
   margin: 20px 0;
 }
 
+.up{
+  position: relative;
+}
+
 .fa-chevron-down,
 .fa-chevron-up{
-  text-align: right;
-  margin-left: 40%;
+  position: absolute;
+  right: 10px;
+  top: 0;
 }
 
 .question:hover .fa-chevron-up{
