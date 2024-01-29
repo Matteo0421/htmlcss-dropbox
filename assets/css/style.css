@@ -349,13 +349,20 @@ p{
   background-color: #F5F5F5;
 }
 
-.sponsor-left img,
-.sponsor-right img{
+.sponsor-left div,
+.sponsor-right div{
   width: 50%;
-  padding: 55px;
   aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.sponsor-left div img,
+.sponsor-right div img{
+  width: 55%;
+  filter: invert(1);
+}
 
 .sponsor-center img{
   width: 50%;
@@ -378,6 +385,10 @@ p{
 
 #designit{
   background-color: #A2D39B;
+}
+
+#designit:hover{
+  border: 10px solid #D0E9CD;
 }
 
 #asu{
