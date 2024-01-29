@@ -449,6 +449,15 @@ p{
   margin-bottom: 150px;
 }
 
+.down{
+  display: none;
+}
+
+.down:hover{
+  cursor: pointer;
+  display: block;
+}
+
 /* /MAIN */
 
 /* FOOTER */
