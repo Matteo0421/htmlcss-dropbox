@@ -434,8 +434,22 @@ p{
   margin: 20px 0;
 }
 
-.fa-chevron-down{
+.fa-chevron-down,
+.fa-chevron-up{
+  text-align: right;
   margin-left: 40%;
+}
+
+.question:hover .fa-chevron-up{
+  display: block;
+}
+
+.question:hover .fa-chevron-down{
+  display: none;
+}
+
+.fa-chevron-up{
+  display: none;
 }
 
 .border-question{
@@ -445,17 +459,17 @@ p{
   margin: 50px 0;
 }
 
+.question:hover  .down{
+  display: block;
+}
+
 .faq{
   margin-bottom: 150px;
 }
 
+
 .down{
   display: none;
-}
-
-.down:hover{
-  cursor: pointer;
-  display: block;
 }
 
 /* /MAIN */
