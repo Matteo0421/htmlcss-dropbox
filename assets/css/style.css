@@ -42,6 +42,9 @@ h4{
   margin-bottom: 15px;
 }
 
+p{
+  margin-bottom: 30px;
+}
 
 .link{
   text-decoration: none;
@@ -79,7 +82,7 @@ h4{
 
 
 /* HEADER */
-.footer-menu{
+.header-menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,8 +93,8 @@ h4{
   background-color: white;
 }
 
-.left-footer,
-.right-footer{
+.left-header,
+.right-header{
   width: 30vw;
   display: flex;
   justify-content: space-around;
@@ -99,13 +102,18 @@ h4{
   font-size: .9rem;
 }
 
-.left-footer span:hover,
-.right-footer span:hover{
-  margin-bottom: 20px;
-  border-bottom: 1px solid black;
+.left-header span,
+.right-header span{
+  height: 80px;
+  line-height: 80px;
 }
 
-.left-footer img{
+.left-header span:hover,
+.right-header span:hover{
+  border-bottom: 3px solid black;
+}
+
+.left-header img{
   width: 25%;
 }
 
@@ -118,7 +126,6 @@ h4{
   
 }
 
-/* /MAIN */
 .jumbo-text{
   width: 30%;
   display: flex;
@@ -197,10 +204,6 @@ h4{
   margin-top: 10px;
 }
 
-
-p{
-  margin-bottom: 30px;
-}
 
 .service ul ,
 .bottom-plan-card ul{
